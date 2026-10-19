@@ -1,79 +1,76 @@
-# 🙃 Dinnerbone.css
+# 🙃 sɔ˙ǝuoqɹǝuuı◖
 
-A Minecraft-inspired utility library to flip your web elements upside down dynamically.
-
----
-
-## 🚀 What is this project?
-
-Have you ever wanted to completely flip a layout, component, or card upside down for a puzzle game, an anti-pattern design, or a specialized user interface? **Dinnerbone.css** provides highly optimized utility classes to shift the gravity of your HTML elements seamlessly with just one class.
+<div align="center">
+  <h1>¡NMOp ƎpISԀ∩ ┴∩O⅄Ǝ˥ ɹ∩O⅄ 🔀</h1>
+  <p><i>.ƃƃƎ ɹǝʇsɐƎ ʇɟɐɹɔǝuıW ɔıssɐlɔ ǝɥʇ ʎq pǝɹıdsuI - sʇuǝɯǝlǝ qǝʍ ƃuıʇɹǝʌuı ɹoɟ ʞɹoʍǝɯɐɹɟ ssn sɐ-ɐ-ǝɔıʌɹǝs ɐ puɐ ʎʇılıʇn ∀</i></p>
+</div>
 
 ---
 
-## 📦 Installation & Setup
+## 🚀 ¿ʇI sI ʇɐɥM
 
-You can integrate this library straight into your modern web applications via package managers:
+**.sıɥʇ pɐǝɹ oʇ uʍop ǝpısdn ǝuɥd ɹnoʎ uɹnʇ oʇ ǝʌɐɥ ʇɥƃıɯ no⅄** .sıɥʇ op uɐɔ ʇɐɥʇ ʇǝʞɔɐd ssn ɐ sɐʍ ǝɹǝɥʇ pɥsıʍ noʎ puɐ uʍop ǝpısdn sʇuǝuodɯoɔ ɹnoʎ dılɟ oʇ pǝpǝǝu nloʎ uǝʇɟo ʍoɥ ʇnoqɐ ʞuıɥ┴ .sʇuǝɯǝlǝ ʇnoʎɐl qǝʍ ɹnoʎ ɟo ʎʇıʌɐɹƃ ǝɥʇ dılɟ ʎllɐɔıɯɐuʎp oʇ sǝssɐlɔ ʎʇılıʇn sǝpıʌoɹd **sɔ˙ǝuoqɹǝuuı◖**
+
+---
+
+## 📦 uoıʇɐllɐʇsuI
+
+¡ʇɔǝɾoɹd ɹnoʎ oʇuı ʇɥƃıɐɹʇs sɔɔ ǝɥʇ p🎦ǝp oʇ upo ɹnoʎ ǝs∩
 
 ```bash
-npm install dinnerbone.css
-```
-
-Or quickly inject it via CDN in your HTML header:
-
-```html
-<link rel="stylesheet" href="https://jsdelivr.net">
+ɯdɯ ʇɹɐʇs-ʞɔınb-sɔɔ˙ǝuoqɹǝuuıp-llɐʇsuı
 ```
 
 ---
 
-## 🛠️ Usage Blueprint
+## 🛠️ ǝpın◖ ǝƃɐs∩
 
-### 1. Absolute Layout Inversion 🔀
-Add the core class `.dinnerbone` to any container to turn it and its entire content completely upside down.
+### ʇnoʎɐ˥ pǝʇɹǝʌuI ɔısɐ🔀
+.uʍop ǝpısdn ƃuıɥʇʎɹǝʌǝ dılɟ oʇ ʇuǝɯǝlǝ ʎuɐ oʇ sɐlɔ sıɥʇ pp∀
 
 ```html
-<div class="card dinnerbone">
-  <h1>I am upside down!</h1>
-  <p>Everything inside this container rotates 180 degrees.</p>
+<div class="dinnerbone">
+  <h1>¡uʍop ǝpısdn ɯ,I</h1>
+  <p>sǝuıן ssn oʍʇ ʇsnɾ ɥʇıʍ pǝʇɹǝʌuı sı sıɥʇ</p>
 </div>
 ```
 
-### 2. Counter-Flipped Nested Containers (Smart Reading) 🧩
-If you want the general card layout to be flipped but want specific elements (like a profile picture, button, or text) to remain readable right side up, use the counter utility:
+### dılɟ-ɹǝʇunoƆ ʇɹɐɯS 🧩
+.ʇxǝʇ ǝɥʇ ǝlqɐpɐǝɹ dǝǝʞ ʇnq ʇnoʎɐl ǝɥʇ ʇɹǝʌuı oʇ sʇuǝɯǝlǝ pǝʇsǝu uı sıɥʇ ǝsn
 
 ```html
-<div class="card dinnerbone">
-  <!-- Flipped card container -->
+<div class="dinnerbone">
+  <!-- The container is upside down -->
   <div class="dinnerbone-counter">
-    <p>The card container is upside down, but this text stays completely readable!</p>
+    <p>¡dn ǝpıs ʇɥƃıɹ sı ʇxǝʇ sıɥʇ ʇnq 'pǝʇɹǝʌuı sı dıʌ pǝǝp sıɥ┴</p>
   </div>
 </div>
 ```
 
-### 3. Hover Trigger Animation 🎮
-Create interactive elements that flip smoothly only when the user hovers over them with the mouse:
+### 🎮 ɹǝƃƃıɹ┴ ɹǝʌoH
+.ʇı ɹǝʌo sɹǝʌoɥ ɹǝsn ǝɥʇ uǝɥʍ ʎlɥʇooɯs sdılɟ ʇɐɥʇ ʇuǝuodɯoɔ ɐ ǝʇɐǝɹƆ
 
 ```html
 <button class="dinnerbone-hover-flip">
-  Hover over me!
+  ¡ǝɯ ɹǝʌoH
 </button>
 ```
 
 ---
 
-## ⚙️ Customization & Global Variables
+## ⚙️ sǝlqɐıɹɐᗯ ssn sɐ sʇuıodʞɐǝɹ🎛️
 
-You can easily override the rotation angles, origins, and physics of the flip directly within your global stylesheet using CSS custom properties:
+.ǝlıɟ `sɔ˙ǝuoqɹǝuuıp` ɹnoʎ uı sǝlqɐıɹɐʌ ʇooɹ ǝɥʇ ƃuıʇıɹʍɹǝʌo ʎq uoıʇɐʇoɹ ǝɥʇ ǝzıɯoʇsnƆ
 
 ```css
 :root {
   --dinnerbone-rotation: 180deg;
-  --dinnerbone-transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --dinnerbone-transition: transform 0.6s ease-in-out;
 }
 ```
 
 ---
 
-## 📄 License
+## 📄 ǝsuǝɔı˥
 
-Dinnerbone.css is open-source software licensed under the **MIT License**. Feel free to break the web rules and flip your components!
+.ǝsuǝɔı˥ ┴I🗲 ǝɥʇ ɹǝpun pǝssıɯɹǝd sı sɔ˙ǝuoqɹǝuuı◖
