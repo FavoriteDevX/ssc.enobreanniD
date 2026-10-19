@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dinnerbone.css - Playground</title>
+  <link rel="stylesheet" href="dinnerbone.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121214;
+      color: #e1e1e6;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      transition: background-color 0.3s;
+    }
+    .container {
+      max-width: 800px;
+      width: 100%;
+      text-align: center;
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: #202024;
+      border: 2px solid #323238;
+      border-radius: 8px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    }
+    button {
+      background: #04d361;
+      color: #000;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1rem;
+      margin: 1rem 0;
+    }
+    button:hover { background: #00b351; }
+    .badge {
+      background: #8257e5;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>🙃 Dinnerbone.css</h1>
+    <p>A Minecraft-inspired CSS library to flip your web elements upside down dynamically.</p>
+    
+    <!-- Global Toggle Button -->
+    <button id="flip-world-btn">Flip Entire World</button>
+
+    <div class="card-grid">
+      <!-- Normal Card -->
+      <div class="card">
+        <h3>Standard Card</h3>
+        <p>This is a completely normal layout component.</p>
+      </div>
+
+      <!-- Flipped Card -->
+      <div class="card dinnerbone">
+        <h3>Dinnerbone Flipped</h3>
+        <p>Everything in this box is completely upside down.</p>
+      </div>
+
+      <!-- Counter Flipped Card -->
+      <div class="card dinnerbone">
+        <h3 class="dinnerbone-counter">Smart Flip</h3>
+        <p class="dinnerbone-counter">The layout is flipped, but this text is readable!</p>
+        <span class="badge dinnerbone-counter">Reversed</span>
+      </div>
+
+      <!-- Hover Flip Card -->
+      <div class="card dinnerbone-hover-flip">
+        <h3>Hover Trigger</h3>
+        <p>Hover your mouse over me to see the magic happen.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // JavaScript helper to demonstrate programmatic world flipping
+    const toggleBtn = document.getElementById('flip-world-btn');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dinnerbone');
+    });
+  </script>
+</body>
+</html>
