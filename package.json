@@ -1,0 +1,16 @@
+{
+  "name": "dinnerbone.css",
+  "version": "1.0.0",
+  "description": "A clever CSS library to flip web elements upside down, inspired by Minecraft's famous easter egg.",
+  "main": "dinnerbone.css",
+  "scripts": {
+    "build": "npx clean-css-cli -o dinnerbone.min.css dinnerbone.css",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [    "css",    "minecraft",    "dinnerbone",    "transform",    "animation",    "easter-egg"  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3"
+  }
+}
