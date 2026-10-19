@@ -1,0 +1,53 @@
+/*
+ * Dinnerbone.css v1.0.0
+ * Turn your web layouts upside down - Inspired by the classic Minecraft Easter Egg.
+ * Licensed under MIT
+ */
+
+:root {
+  --dinnerbone-rotation: 180deg;
+  --dinnerbone-transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* 🙃 The Core Class - Flips any element upside down */
+.dinnerbone, 
+[data-dinnerbone] {
+  transform: rotate(var(--dinnerbone-rotation)) !important;
+  transition: var(--dinnerbone-transition);
+  transform-origin: center center;
+}
+
+/* 🧩 Smart Inversion for Interactive Sub-elements */
+/* Keeps hover/active states smooth even when flipped */
+.dinnerbone:hover,
+[data-dinnerbone]:hover {
+  filter: drop-shadow(0 -10px 15px rgba(0, 0, 0, 0.15));
+}
+
+/* 🔄 Double-Flip Utility (Counter-Dinnerbone) */
+/* Apply this to nested elements inside a .dinnerbone container if you want the layout 
+   flipped but specific elements (like text or avatars) to remain readable right side up */
+.dinnerbone-counter,
+.dinnerbone .dinnerbone-unflip {
+  transform: rotate(calc(var(--dinnerbone-rotation) * -1)) !important;
+  transition: var(--dinnerbone-transition);
+}
+
+/* 🎮 Interactive Mirroring & Utilities */
+.dinnerbone-toggle {
+  cursor: pointer;
+}
+
+.dinnerbone-hover-flip {
+  transition: var(--dinnerbone-transition);
+}
+
+.dinnerbone-hover-flip:hover {
+  transform: rotate(var(--dinnerbone-rotation));
+}
+
+/* 🌍 Screen-wide Gravity Flip */
+body.dinnerbone-world {
+  overflow-x: hidden;
+  perspective: 1000px;
+}
